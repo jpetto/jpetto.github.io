@@ -5,6 +5,8 @@ title: Taco Tuesday
 
 ## Recipe of the day
 
+:bowtie:
+
 Let's make BBQ seitan cheese grit tacos. You'll need the following ingredients:
 
 - 6oz of cheese
