@@ -3,6 +3,12 @@ layout: post
 title: Demo post from original source
 ---
 
+## Testing out Markdown
+
+1. Uhm
+2. Uh
+3. Jeez
+
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
