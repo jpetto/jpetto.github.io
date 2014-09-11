@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why I'm Here
+title: Getting Started
 ---
 
 ## Why I'm Here
