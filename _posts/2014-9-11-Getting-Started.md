@@ -22,6 +22,6 @@ belly slow-carb +1 ennui.
 
 ### Current Inspiration
 
-1. (The Web We Want)[https://webwewant.mozilla.org/] - Great design, really cool data visualization, and empowering of the web community.
-2. (CodePen)[http://codepen.io] - Best code testing/sharing/hacking site to date.
-3. (A Game of Shark and Minnow)[http://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/] - I mean, this is the future of journalism. Hot stuff.
+1. [The Web We Want](https://webwewant.mozilla.org/) - Great design, really cool data visualization, and empowering of the web community.
+2. [CodePen](http://codepen.io) - Best code testing/sharing/hacking site to date.
+3. [A Game of Shark and Minnow](http://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/) - I mean, this is the future of journalism. Hot stuff.
