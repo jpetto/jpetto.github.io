@@ -5,7 +5,7 @@ title: Responsive Images
 
 Responsive images are tricky!
 
-```css
+{% highlight css %}
 .banner {
   background-image: url('banner.jpg');
 }
@@ -15,4 +15,4 @@ Responsive images are tricky!
     background-image: url('banner@2x.jpg');
   }
 }
-```
+{% endhighlight %}
