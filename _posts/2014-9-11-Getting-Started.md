@@ -26,13 +26,15 @@ belly slow-carb +1 ennui.
 2. [CodePen](http://codepen.io) - Best code testing/sharing/hacking site to date.
 3. [A Game of Shark and Minnow](http://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/) - I mean, this is the future of journalism. Hot stuff. :fire:
 
-{% highlight html %}
+```
 <polymer-element name="my-element">
-  <template><google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published></google-sheets>
-      <google-map fittomarkers id="google_map">
-        <template repeat="{{row in rows}}">
-          <google-map-marker latitude="{{row.gsx$lat.$t}}" longitude="{{row.gsx$lng.$t}}"></google-map-marker>
-        </template>
-      </google-map></template>
+  <template>
+    <google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published></google-sheets>
+    <google-map fittomarkers id="google_map">
+      <template repeat="{{row in rows}}">
+        <google-map-marker latitude="{{row.gsx$lat.$t}}" longitude="{{row.gsx$lng.$t}}"></google-map-marker>
+      </template>
+    </google-map>
+  </template>
 </polymer-element>
-{% endhighlight %}
+```
