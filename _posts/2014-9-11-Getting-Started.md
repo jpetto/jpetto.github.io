@@ -25,3 +25,14 @@ belly slow-carb +1 ennui.
 1. [The Web We Want](https://webwewant.mozilla.org/) - Great design, really cool data visualization, and empowering of the web community.
 2. [CodePen](http://codepen.io) - Best code testing/sharing/hacking site to date.
 3. [A Game of Shark and Minnow](http://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/) - I mean, this is the future of journalism. Hot stuff. :fire:
+
+```
+&lt;polymer-element name="my-element"&lt;
+  &lt;template&lt;&lt;google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published&lt;&lt;/google-sheets&lt;
+      &lt;google-map fittomarkers id="google_map"&lt;
+        &lt;template repeat="{{row in rows}}"&lt;
+          &lt;google-map-marker latitude="{{row.gsx$lat.$t}}" longitude="{{row.gsx$lng.$t}}"&lt;&lt;/google-map-marker&lt;
+        &lt;/template&lt;
+      &lt;/google-map&lt;&lt;/template&lt;
+&lt;/polymer-element&lt;
+```
