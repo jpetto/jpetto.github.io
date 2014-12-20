@@ -27,7 +27,7 @@ belly slow-carb +1 ennui.
 3. [A Game of Shark and Minnow](http://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/) - I mean, this is the future of journalism. Hot stuff. :fire:
 
 {% highlight html %}
-&lt;polymer-element name="my-element"&gt;
+<polymer-element name="my-element">
   &lt;template&lt;&lt;google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published&lt;&lt;/google-sheets&lt;
       &lt;google-map fittomarkers id="google_map"&lt;
         &lt;template repeat="{{row in rows}}"&lt;
