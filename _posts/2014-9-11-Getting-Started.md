@@ -26,8 +26,8 @@ belly slow-carb +1 ennui.
 2. [CodePen](http://codepen.io) - Best code testing/sharing/hacking site to date.
 3. [A Game of Shark and Minnow](http://www.nytimes.com/newsgraphics/2013/10/27/south-china-sea/) - I mean, this is the future of journalism. Hot stuff. :fire:
 
-```
-&lt;polymer-element name="my-element"&lt;
+{% highlight html %}
+&lt;polymer-element name="my-element"&gt;
   &lt;template&lt;&lt;google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published&lt;&lt;/google-sheets&lt;
       &lt;google-map fittomarkers id="google_map"&lt;
         &lt;template repeat="{{row in rows}}"&lt;
@@ -35,4 +35,4 @@ belly slow-carb +1 ennui.
         &lt;/template&lt;
       &lt;/google-map&lt;&lt;/template&lt;
 &lt;/polymer-element&lt;
-```
+{% endhighlight %}
