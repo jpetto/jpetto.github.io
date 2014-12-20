@@ -28,11 +28,11 @@ belly slow-carb +1 ennui.
 
 {% highlight html %}
 <polymer-element name="my-element">
-  &lt;template&lt;&lt;google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published&lt;&lt;/google-sheets&lt;
-      &lt;google-map fittomarkers id="google_map"&lt;
-        &lt;template repeat="{{row in rows}}"&lt;
-          &lt;google-map-marker latitude="{{row.gsx$lat.$t}}" longitude="{{row.gsx$lng.$t}}"&lt;&lt;/google-map-marker&lt;
-        &lt;/template&lt;
-      &lt;/google-map&lt;&lt;/template&lt;
-&lt;/polymer-element&lt;
+  <template><google-sheets key="1AsR71hx_Kw_Yq--UEEq3mWxzk73RYsdqZTMxBjJrJjg" rows="{{rows}}" published></google-sheets>
+      <google-map fittomarkers id="google_map">
+        <template repeat="{{row in rows}}">
+          <google-map-marker latitude="{{row.gsx$lat.$t}}" longitude="{{row.gsx$lng.$t}}"></google-map-marker>
+        </template>
+      </google-map></template>
+</polymer-element>
 {% endhighlight %}
