@@ -11,12 +11,12 @@ This post is largely for my own personal reference. But it'd be great if anyone 
 
 The following assumes you're fond of the whole IIFE thing.
 
-```
+{% hightlight html %}
 <!-- YouTube embed will replace the following with iframe -->
 <div id="video-blah"></div>
-```
+{% endhighlight %}
 
-```
+{% highlight javascript %}
 if (typeof MyApp == 'undefined') {
     window.MyApp = {};
 }
@@ -50,8 +50,8 @@ function onYouTubeIframeAPIReady() {
             }
         });
     }
-    
+
     // expose the private function above to the global scope
     window.MyApp.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
 })(window.MyApp);
-```
+{% endhighlight %}
