@@ -27,6 +27,16 @@ function onYouTubeIframeAPIReady() {
 (function() {
     var videoBlah;
     
+    // Add YouTube API JS
+    // call whenever YouTube should be initialized
+    var initYouTube = function() {
+        var tag = document.createElement('script');
+
+        tag.src = 'https://www.youtube.com/iframe_api';
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    };
+    
     // This function will be called when the YoutTube API is ready
     function onYouTubeIframeAPIReady() {
         // This creates and embeds the video
