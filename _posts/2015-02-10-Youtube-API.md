@@ -3,15 +3,13 @@ layout: post
 title: Quick Guide to Using the YouTube API
 ---
 
-# Quick Guide to Using the YouTube API
-
 The [documentation](https://developers.google.com/youtube/js_api_reference) is pretty good, but doesn't provide a simple view of code I have to hunt down and reverse engineer every 3 months or so.
 
 This post is largely for my own personal reference. But it'd be great if anyone else finds it useful.
 
 The following assumes you're fond of the whole IIFE thing.
 
-{% hightlight html %}
+{% highlight html %}
 <!-- YouTube embed will replace the following with iframe -->
 <div id="video-blah"></div>
 {% endhighlight %}
