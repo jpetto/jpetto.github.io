@@ -38,7 +38,7 @@ function onYouTubeIframeAPIReady() {
     };
     
     // This function will be called when the YoutTube API is ready
-    function onYouTubeIframeAPIReady() {
+    var onYouTubeIframeAPIReady = function() {
         // This creates and embeds the video
         videoBlah = new window.YT.Player(document.querySelector('#video-blah'), {
             width: '640',
@@ -57,7 +57,7 @@ function onYouTubeIframeAPIReady() {
                 }
             }
         });
-    }
+    };
 
     // expose the private function above to the global scope
     window.MyApp.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
