@@ -3,6 +3,12 @@ layout: post
 title: Quick Guide to Using the YouTube API
 ---
 
+### Update
+
+I put together a [working demo](https://github.com/jpetto/YouTubeAPIDemo), if you're in to that sort of thing.
+
+***
+
 The [documentation](https://developers.google.com/youtube/js_api_reference) is pretty good, but doesn't provide a simple view of code I have to hunt down and reverse engineer every 3 months or so.
 
 This post is largely for my own personal reference. But it'd be great if anyone else finds it useful.
